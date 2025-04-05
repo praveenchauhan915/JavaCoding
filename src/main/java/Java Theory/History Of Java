@@ -1,0 +1,15 @@
+--> Java was developed by Sun Microsystems in the year 1995.
+--> Earlier known as 'Ook'.
+--> Java is Categorized into 3 types
+          --> J2SE:- Java 2 Standard Edition[Core Java].
+          --> J2EE:- Java 2 Enterprise Edition[Advance Java].
+          --> J2ME:- Java 2 Micro Edition[FrameWork].
+--> J2SE is used to develop the core applications.
+--> J2EE and J2ME are used to develop web applications.
+***********************************
+
+Java Compiler:- Java Compiler is one which is designed in such manner that it just check the syntax in source code.
+--> If the program is correct, then Java compiler will take source code as its input and it will generate bytecode as its output.
+--> If the programmer has done any mistake in the program then at the compilation stage it will give compile time error.
+
+

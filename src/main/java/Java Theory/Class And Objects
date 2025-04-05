@@ -1,0 +1,22 @@
+--> Class is blueprint in Java.
+--> Object is a real world entity which is having state and behaviour.
+--> A class is also called as master copy or template.
+--> A object is also called instance of a class.
+--> If we want to create a object, class is required, without class we cannot create object.
+--> Object are created from master copy or template.
+--> By using single class we can create multiple objects.
+--> Anything defined inside the class body is known as member of class.
+--> If we declare the variable in the class body is known as data members.
+--> If we define any methods in the class body we can call it as functional member of the class.
+--> The state of the object is also called as fields.
+--> The behaviour of the object is also called as action.
+
+
+Reference Variable:- Is a variable which refers to the object and by using reference variable we can access states and behaviour which is present in a class.
+                     New is a operator which allocates some memory for the object. JVM will create an object internally.
+                     Example:- Remote r = new Remote();
+                               Remote:- Class name
+                               r = Reference Variable
+                               new:- operator
+                               Remote():- Constructor
+                               new Remote():- Object

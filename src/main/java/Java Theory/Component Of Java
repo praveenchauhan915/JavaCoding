@@ -1,0 +1,5 @@
+--> JDK:- Java Development Tool Kit:- It provides an platform or environment to develop Java Program.
+--> JRE:- Java RunTime Environment:- It provides an platform or environment to run Java Program.
+--> JVM:- Java Virtual Machine:- It will execute Java program line by line.
+--> JDK:- JRE+JVM
+--> JRE:- JVM+ other files + libraries.

@@ -1,0 +1,8 @@
+--> DataTypes(8):- byte, short, int, long, float, double, char, boolean.
+--> Flow Control(10):- if, else, while, do, for, switch, case, default, continue, break.
+--> Exception Handling(5):- try, catch, finally, throw, throws.
+--> Class Level(6):- class, extends, interface, implements, package, import.
+--> Source File(4):- new, instance of , this , super.
+--> Method Level:- void, return.
+--> Unused Keywords:- constant, goto.
+--> Access Modifiers(11):- public, private, protected, static, final, abstract, transient, volatile, strict, synchronised, native.

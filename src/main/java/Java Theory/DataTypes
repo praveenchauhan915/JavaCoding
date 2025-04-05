@@ -1,0 +1,23 @@
+--> Datatypes are categorised into 2 types
+        --> Primitive Datatypes
+        --> Non-Primitive Datatypes.
+--> Primitive Datatypes:- The datatypes which is supported by programming is called primitive datatypes. Also called pre-defined datatypes or inbuilt datatypes.
+--> Non-Primitive Datatypes:- The datatypes which is supported by programmer or user is called non-primitive datatypes or user defined datatypes.
+
+--> Primitive Datatypes :- Numeric:- Integer:- Byte(1byte), Short(2 bytes), int(4 bytes), long(8 bytes).
+                                     Real Number:- Float(4 bytes), Double(8 bytes).
+                           Non- Numeric:- Char(2 bytes).
+                                          Boolean(1 bit).
+
+--> Non- Primitive Datatypes:- Class, String, Array.
+
+--> Identifiers:- A name in a given program is called identifiers. It can be method, class name or variable.
+    Example:- class Demo(Class Name)
+              public static void main(String[] args):- main is method Name.
+              int i:- i is variable name
+
+
+--> Rules of Identifiers
+     --> The allowed character or upper case (A-Za-z).
+     --> Identifiers cannot start with digit.
+     --> Their is no length limit for identifiers but it is not recommended to give more than 15.

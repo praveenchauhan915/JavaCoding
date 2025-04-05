@@ -1,0 +1,7 @@
+--> What is the difference between '=' and '=='?
+    '==' is used to perform comparison operation and '==' is called as relational operators.
+    '=' is used assign value to the variable and '=' is called as assignment operators.
+
+--> What is the difference between '&' and '&&'?
+   In single '&' if the first expression is false it will check for 2nd expression also.
+   But '&&' if the first expression is false then it will not check 2nd expression(It would be considered as false itself).

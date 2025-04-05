@@ -1,0 +1,24 @@
+Variables
+--> The variable which is declared inside the class and outside the method is called an instance variable.
+--> The variable which is declare inside the method is called a local variable.
+--> Local variable should be initialised.
+
+
+Operators
+--> Operators are the symbol is used to perform different action is called an operators.
+--> Types:- Arithmetic Operators:- are the operators is used to perform mathematical operation is called arithmetic operators.
+                                   Example:- +,*,-,/,%
+            Relational Operators:- are the operators used to perform comparison operation.
+                                   The outcome of relational operator is always boolean.
+                                   Example:- <,>, <=,>=,==,!=
+            Logical Operators:- are the operators is used to preform logical operation.
+                                The outcome of logical operator is boolean.
+            Conditional Operators:- If the 1st condition is true execute 2nd statement.
+                                    If the 1st condition is false it will skip the 2nd statement and it will execute 3rd statement.
+                                    Syntax:- ? : ;
+                                    Example:- i>j?i:j;
+                                               1  2 3
+            Assignment Operators:- This is the operators , it allows the programmer to create a chain of statement or expression.
+                                   It will assign the value to the variable.
+                                   Example:- =
+
