@@ -1,0 +1,13 @@
+HTTP Requests:- An HTTP request is a message sent from a client to a server using hyperText Transfer Protocol(HTTP).
+Types of HTTP Request:-
+              GET:- Get method fetches information from the server.
+              POST:- Post method used to send information to server.
+              PUT:- Put method is similar to the Post method, only difference is that to replace an existing entity completely.
+              PATCH:- This method is similar to Post and Put method, but we use it when we have to update some data partially.
+              DELETE:- Used to delete information from the server.
+              HEAD:- The head method is similar to Get method, but it retrieves only the header data not the entire response body.
+Structure of HTTP:-
+            Resource URL:- https://bookstore.toolsqa.com/
+            Parameter: BookStore/v1/Books
+        On Combination above 2 parts, our request url becomes
+          https://bookstore.toolsqa.com/BookStore/v1/Books

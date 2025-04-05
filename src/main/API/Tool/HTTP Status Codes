@@ -1,0 +1,24 @@
+--> HTTP status codes are 3-digit code the indicates the outcomes of an HTTP Request, classifying response into groups like informational, successful, redirection, client error and server error.
+--> 1XX:- Informational
+      100:- Continue:- The server has received the request and should continue with the request.
+      101:- Switching Protocols:- The server is switching the request according to the client's request.
+--> 2XX:- Successful
+     200:- OK:- The request was successful, and the server returned the request resource.
+     201:- Created:- The request has been fulfilled, and new resource has been created.
+     204:- No Content:- The request was successful, but their was no content to return.
+--> 3XX:- Redirection
+     301:- Moved Permanently:- The requested resource has been permanently moved to new location.
+     302:- Found:- The requested resource has been temporarily n=moved to new location.
+     304:- The resource has been not modified since the last request.
+--> 4XX:- Client Error
+     400:- Bad Request:- The server cannot process the request due to client error, such as malformed request.
+     401:- Unauthorized:- The request requires authentication,and the client has not provided valid credentials.
+     403:- Forbidden:- The client is not authorized to access the requested resource.
+     404:- Not Found:- The server cannot find the requested resource.
+--> 5XX:- Server Error
+     500:- Internal Server Error:- The server encountered an unexpected condition that prevented it from fulfilling the request.
+     501:- Not Implemented:- The server does not support the functionality required to fulfill the request.
+     502:- Bad Gateway:- The server, while acting as a gateway, received an invalid response from the upstream server.
+     503:- Service Unavailable:- The server is currently unavailable, possibly due to overload and maintenance.
+     504:- Gateway Timeout:- The server, while acting as a gateway, did not receive a timely response from the upstream server.
+     505:- HTTP Version Not Supported:- The server does not support the HTTP protocol version used in the request.
