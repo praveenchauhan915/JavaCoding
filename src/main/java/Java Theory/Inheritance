@@ -1,0 +1,13 @@
+--> Acquiring property of one class by the other class is called inheritance.
+--> Inheritance is achieved by using keyword 'extends'.
+--> Inheritance is achieved by keeping all the common properties in one class, that is called parent,super or main class.
+--> Acquiring properties from super class by the other class is called sub or child class.
+--> Whenever we write 'extends' keyword the properties of parent class inherited to child class.
+--> The child class object can be shared with parent and child class.
+--> The super most class of java is object class.
+--> Types of Inheritance
+    --> Single Inheritance:- One class is extends by only one class.
+        Example:- A(Super)<--B(Sub)
+    --> Multi-Level Inheritance:- One class is extends by another class and intern that class is extends by other class.
+        Example:- A<--B<--C
+    -->

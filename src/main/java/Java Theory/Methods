@@ -1,0 +1,39 @@
+--> A method is just like function which performs some functionality is called method.
+--> A method can take any number of inputs parameters.
+--> Every method has a return type.
+--> If the method is not returning any thing inside then we have to write the return type as a void.
+--> Return is the last logical statement inside the method.
+--> A method can return only one value at a time but it can return more than one value by using arrays concept.
+
+-->Method Overloading:- In a class having more then one method having same name but different input parameter.
+--> Different Parameter in the sense
+    --> We can change the input parameter
+        Example:-
+        int display(int i){
+         //statement
+        }
+        int display(long l){
+         //statement
+        }
+    --> We can change the datatypes
+        Example:-
+        int display(String s){
+         //statement
+        }
+    --> We can change the sequence of parameter
+        Example:-
+        int display(int i,long l){
+         //statement
+        }
+        int display(long l, int i){
+         //statement
+        }
+--> In method overloading variable name should not be considered.
+--> In method overloading return type should not be considered.
+--> Advantage:- If we want to perform different action by using same method name then we should go for method overloading.
+
+Method Overriding:- It is a process of giving child specific implementation by keeping parent method definition same.
+                    By overriding the methods , method name, return type and input parameter must be same but implementation can be different.
+                    Overriding is possible only in case of inheritance
+                    Any number of methods can be overridden at any number of times.
+                    Only methods can be overridden, but variables cannot be overridden.

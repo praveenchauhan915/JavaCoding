@@ -1,0 +1,12 @@
+-->Access modifier in java are keywords that controls the visibility and accessibility of classes, methods, variables and constructors.
+--> Types of Access Modifiers:-
+    --> Public:- It is highly visible access modifier in Java.
+                 We can access anywhere in the class i.e. we can access inside the class, outside the class and outside the package.
+    --> Private:- It is highly restricted modifier in Java.
+                  It cannot access the private member outside the class.
+    --> Default:- When we don't mention any access modifier explicitly then that member would be taken it as default.
+                  We can access the default member inside the class  and outside the class.
+                  We cannot access default member outside of the package.
+    --> Protected:- We can access the protected members inside and outside of the class.
+                  We cannot access protected members outside of the package.
+                  But we can access only in case of inheritance.

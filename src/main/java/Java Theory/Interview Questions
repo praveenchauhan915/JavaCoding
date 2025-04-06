@@ -5,3 +5,27 @@
 --> What is the difference between '&' and '&&'?
    In single '&' if the first expression is false it will check for 2nd expression also.
    But '&&' if the first expression is false then it will not check 2nd expression(It would be considered as false itself).
+
+--> Can we use all the method inside the the SOPln?
+    Yes, we can call all the method except the method return type is void.
+     Example:- public class calculator
+               {
+                  int add(int a, int b){
+                        int c = a+b;
+                        return c;
+                  }
+                  void sub(int x, int y){
+                        int z = x-y;
+                        S.O.Pln(z);
+                  }
+                  void mul(int p, int q){
+                        int r = p*q;
+                        S.O.Pln(r)
+                  }
+                  public static void main(String[] args){
+                         Calculator c = new Calculator();
+                         S.O.Pln(c.add(20,10));
+                         c.sub(20,10);
+                         c.mul(10,10);
+                  }
+               }

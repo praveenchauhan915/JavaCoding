@@ -14,14 +14,14 @@ public class duplicate_Element_In_Array_Find {
             }
         }
         System.out.println();
-//Using  Hash Set
-        int [] a1 = {10,20,30,30,40,50,60,50};
-        HashSet<Integer> hs = new HashSet<>();
-        for(int i= 0; i<a1.length;i++){
-            hs.add(a1[i]);
-        }
-        for (int num :hs){
-            System.out.print(num+ " ");
-        }
+////Using  Hash Set
+//        int [] a1 = {10,20,30,30,40,50,60,50};
+//        HashSet<Integer> hs = new HashSet<>();
+//        for(int i= 0; i<a1.length;i++){
+//            hs.add(a1[i]);
+//        }
+//        for (int num :hs){
+//            System.out.print(num+ " ");
+//        }
     }
 }
