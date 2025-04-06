@@ -1,0 +1,14 @@
+--> Xpath is an XML path used for navigation through the HTML structure.
+--> Xpath Syntax:-  //tagname[@attribute='value']
+                  //:- Select current node
+                  tagname:- Tagname of the particular node
+                  @:- Select attribute
+                  attribute:- Attribute name of the node
+                  value:- Value of the attribute
+--> Different types of locators
+       ID:- To find the element by ID of the element.
+       Classname:- To find the element by Classname of the element.
+       Name:- To find the element by name of the element.
+       LinkText:- To find the element by text of the link.
+       Xpath:- Xpath required for finding the dynamic element and traverse between various elements of the web page.
+       CSS path:- CSS path also locates elements having no name, class or ID.

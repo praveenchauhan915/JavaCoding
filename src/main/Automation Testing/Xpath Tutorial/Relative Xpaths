@@ -1,0 +1,17 @@
+--> Basic Xpath Syntax:-
+           Xpath = //input[@type='text']
+           Xpath = //input[@id='message23']
+           Xpath = //input[@value='RESET']
+           Xpath = //*[@class='barone']
+           Xpath = //a[@href='http://demo.guru99.com/']
+           Xpath= //img[@src='//guru99.com/images/home/java.png']
+--> Contains() Syntax:-
+           Xpath = //*[contains(@type,'sub')]
+           XPath = //*[contains(@name,'btn')]
+--> Using OR and AND Syntax:-
+           Xpath = //input[@type='submit' or @name='btnReset']
+           Xpath= //input[@type='submit' and @name='btnLogin']
+--> Xpath Starts-with Syntax:-
+           Xpath = //label[start-with(@id,'message')]
+--> Xpath Text() Function Syntax:-
+           Xpath= //td[text()='UserID']

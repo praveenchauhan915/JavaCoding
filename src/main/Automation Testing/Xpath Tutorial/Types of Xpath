@@ -1,0 +1,8 @@
+--> There are 2 types of xpath
+    --> Absolute Xpath:- It is the direct way to find the element.
+                         It starts with single forward slash(/).
+                  Disadvantage:- If their are any changes made in the path of the element then xpath gets failed.
+    --> Relative Xpath:- Relative xpath starts from the middle of the HTML DOM structure.
+                         It starts with double forward slash(//).
+                         It can search elements anywhere on the webpage, means no need to write a long xpath.
+                         Relative xpath is always preferred as it is not a complete path from the the root element.
