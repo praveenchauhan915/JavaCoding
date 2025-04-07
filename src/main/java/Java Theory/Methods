@@ -37,3 +37,10 @@ Method Overriding:- It is a process of giving child specific implementation by k
                     Overriding is possible only in case of inheritance
                     Any number of methods can be overridden at any number of times.
                     Only methods can be overridden, but variables cannot be overridden.
+--> In method overriding access modifier visibility will be
+    --> If the parent class method is private then the clild class method can be private, default, protected or public.
+    --> If the parent class method is default the child class method can be default, protected or public, but not private.
+    --> If the parent class method is protected then the child class method can be protected or public, but not private or default.
+    --> of the parent class method is public then child class method should be public, but not private, protected or default.
+--> Method overriding is possible in case of inheritance.
+--> Advantage:- It is the one way to give child specific implementation.

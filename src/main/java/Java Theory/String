@@ -1,0 +1,19 @@
+--> String:- It is immutable means its value cannot be changed once created.
+             Thread-safe.
+             Slower when it comes to frequent modification due to immutability.
+--> String Builder:- It is mutable.
+                     Non-Synchronized therefore not thread safe.
+                     Faster for repeated changes since no new objects are created.
+--String Buffer:- It is mutable.
+                  Synchronized making thread safe.
+                  Slightly slower then string builder due to synchronization.
+
+--> How to create String?
+    --> String Literal:- Java string literal is created by using double quotes
+                         Example:- String s = "welcome";
+                         --> Each time create string literal, JVM checks the 'String constant pool' first.
+                         --> If the string is present in pool, a reference to the pooled instance is returned.
+                         --> If the string doesn't exist in the pool, a new string instance is created and placed in the pool.
+                         --> Example:- String s = "Welcome";
+                                       String s1 = "Welcome": // It doesn't allow create new instance
+    --> By new Keyword:- String s = new String("Welcome");

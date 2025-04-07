@@ -10,4 +10,9 @@
         Example:- A(Super)<--B(Sub)
     --> Multi-Level Inheritance:- One class is extends by another class and intern that class is extends by other class.
         Example:- A<--B<--C
-    -->
+    --> Hierarchy:- One super class is extended by so many sub classes.
+        Example:- A<--B
+                  A<--C
+                  A<--D
+    --> Multiple:- Any sub class can inherit one super at a time but one sub class cannot inherit more then one class at a time because JVM get confused or it leads ambiguty.
+    --> This kind of problem is known as diamond problem.

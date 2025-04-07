@@ -1,0 +1,40 @@
+--> Interface is a media between two different system.
+--> Interface contains only abstract method.
+--> Abstract method is a method which is not having any implementation.
+--> It is mandatory for a chile class to override the abstract method which is present inside the interface.
+--> We cannot create an object of interface.
+--> In interface can refer to any of the child class in the entire inheritance hierarchy.
+--> We can achieve 100% abstraction in interface.
+--> If any class is inheriting other interface, we have to use implements keyword.
+--> If any interface is inheriting other interface, we have to use extends keyword.
+--> A class can be the child of another class and interface but interface cannot be the child of any class.
+--> Example:-
+            interface ISwitch {
+                  void clickA();
+                  void clickB();
+             }
+            class LedLight implements ISwitch {
+                public void clickA(){
+                     S.O.Pln("LED Light Switch On")
+                }
+                public void clickB(){
+                     S.O.Pln("LED Light Switch Off")
+                }
+             }
+            class SolarLight implements ISwitch {
+                public void clickA(){
+                     S.O.Pln("Solar Light Switch On")
+                }
+                public void clickB(){
+                     S.O.Pln("Solar Light Switch Off")
+                }
+            }
+            public class Demo {
+             public static void main(String[] aargs){
+                  LedLight l = new LedLight();
+                  l.clickA();
+                  l.clickB();
+              }
+            }
+            Output:- Led Light Switch On
+                     Led Light Switch Off

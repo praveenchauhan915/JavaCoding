@@ -1,0 +1,66 @@
+--> A Java collection is predefined architecture capable of storing a group of elements and behaving like single unit such as an object or a group.
+--> Java Collection framework enables the user to perform various data manipulation operations like storing data, searching, sorting, insertion, deletion and updating of data on the group of elements.
+--> Java Collection Framework Hierarchy
+     --> Iterable--> Collection
+                     --> List--> Array List
+                             --> Linked List
+                                 --> Queue:- Priority Queue
+                                 --> Deque:- Array Deque
+                             --> Vector--> Stack
+                     --> Queue
+                     --> Set --> Hash Set
+                                 Linked Hash Set
+                             --> Sorted Set
+                                 --> Tree Set
+--> Iterator Interface:- Iterator interface provides the facility of iterating the elements in a forward direction only.
+--> Iterable Interface:- The iterable interface is the root interface for all the collection classes.
+                         Collection interface extents the Iterable interface and therefore all the subclasses of collection interface also implements the Iterable interface.
+--> Collection Interface:- The collection interface is the interface which is implemented by all the classes in the collection framework.
+                           It declares the methods that every collection will have.
+      --> List Interface:- List interface is the child interface of the collection interface.
+                           It inhibits a list type data structure in which we can store the ordered collection of objects.
+               --> Array List:- Internally uses dynamic array to store the element.
+                                Array List better for storing and accessing data.
+                                Maintains insertion order.
+                                Non-Synchronized.
+
+               --> Linked List:- Internally uses doubly linked list to store the elements.
+                                 Linked list is better for manipulating data.
+                                 Maintains insertion order.
+                                 Non-Synchronized.
+
+               --> Vector:- Vector uses a dynamic array to store the data elements. It is similar to array list.
+                            Synchronized and contains many method that are not part of collection framework.
+
+               --> Stack:- The stack is subclass of vector.
+                           It implements the last in first out data structure.
+
+      --> Queue Interface:- Queue interface maintains First-in-first out order.
+                            It can be defined as an ordered list that is used to hold the elements which are about to be processed.
+               --> PriorityQueue:- The PriorityQueue class implements the Queue interface.
+                                   It holds the elements or objects which are to be processed by their priorities.
+                                   PriorityQueue doesn't allow null values to be stored in the queue.
+               --> DeQueInterface:- Deque interface extends Queue interface.
+                                    In Deque, we can remove and add the elements from both side.
+                                    Deque stands for a double-ended queue which enables us to perform the operations at both the ends.
+               --> ArrayDeque:- ArrayDeque class implements the Deque interface.
+                                It facilitates us to use the deque.
+                                We can add or delete the elements from both the ends.
+                                ArrayDeque is faster then ArrayList and stack and has no capacity restrictions.
+      --> Set Interface:- Set interface extends the collection interface.
+                          It represents the unordered set of elements which doesn't allow us to store the duplicate items.
+                          We can store at most one null value in Set.
+               --> HashSet:- HashSet class implements Set interface.
+                             HashSet contains unique elements.
+                             HashSet allows only one null values.
+                             Non-Synchronized
+                             Doesn't maintain insertion order.
+                             Stores data basis of the hashcode.
+                             Search Operation
+               --> Linked HashSet:- Linked HashSet class is a Hashtable and linked list implementation of the set interface.
+                                    Non-Synchronized.
+                                    Maintains insertion order.
+               --> Tree Set:- Contains unique elements
+                              Doesn't allow null element
+                              Non-Synchronized.
+                              Maintain ascending order.

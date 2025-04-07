@@ -1,0 +1,13 @@
+--> The Map interface in Java is part of the collection framework.
+--> It represents a mapping between a set of keys and their corresponding values.
+--> A map cannot contain duplicate key: each key can map to at most one value.
+--> Map interface is used to store key-value pair, where each key is unique.
+
+--> Hash Map:- Contains values based on the key.
+               Contain only unique key.
+               May have one null key and multiple null values.
+               Non-Synchronized
+               Maintains no insertion order.
+--> Linked Hash Map:- Maintains insertion order
+--> Tree Map:- Cannot hav null key but can have multiple null values.
+               Maintains ascending order.

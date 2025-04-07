@@ -1,0 +1,5 @@
+--> If We make it any variable as a static we call it as static variable.
+--> Any non-static method want to call non-static method, we can call it by using method name.
+--> Any static method want to call static method, we can call it by using method name.
+--> Any non-static method want to call static method, we can call it by using class name.
+--> Any static method want to call non-static method, we can call it by using object reference.
