@@ -1,0 +1,10 @@
+--> Selenium is an open source (free) automated testing framework for validating web applications across multiple browsers and platform.
+--> Selenium Scripts can be written in a variety of programming languages, including Java, C#, Python and others.
+--> Selenium is the term for testing done using the Selenium testing tool.
+--> Different Components of Selenium Suite:-
+         Selenium IDE:- It is a Firefox/Chrome plug-in that is developed to speed up the creation of automation script by recording the user actions on the web browser and exporting them as reuseble script.
+         Selenium RC:- It is a server that enables users to generate test scripts in their preferred programming language.
+                       It accepts commands from the script and sends them to browser as Selenium core JavaScript commands, for browser to behave accordingly.
+         Selenium Web Driver:- It is a programming interface that helps create and run test cases by directly communicating with the web browser and using its native compatibility to automate.
+                               Unlike Selenium RC, it doesn't require an additional server to create and run test cases.
+         Selenium Grid:- It allows parallel execution of tests on different browsers and opeating system by distributing commands to other machines simultaneously.

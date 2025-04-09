@@ -1,0 +1,10 @@
+--> What is locators and types of locators?
+   --> ID
+   --> ClassName
+   --> Name
+   --> TagName
+   --> LinkText
+   --> Partial LinkText
+   --> Xpath
+   --> CSS Selector
+   --> DOM
