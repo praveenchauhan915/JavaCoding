@@ -1,0 +1,28 @@
+Feature:- The feature keyword aim is to group similar scenarios and provide a high-level overview of a software feature.
+          Example:-
+              Feature: As a user I want to search for movies in particular city
+Background:- There are often a few steps that are used across all the scenarios in a feature file can be written under background.
+             Example:-
+                Background:
+                    Given auth_url
+                    * def authorization = 'Bearer '+ access_token
+                    * defdbUtilities = Java.type('utility.PostgresUtility')
+Scenario:- Scenario is simply a summary of the test case; it may also be left blank.
+           Example:-
+              Scenario: Verify gamification level for logged in user
+Scenario Outline:- The sceanrio outline keyword can be used to run the same sceanrio several times with variour test data.
+
+
+Assert:- Is used to evaluate a condition in the form of boolean values i.e. True or False.
+         Example:- assert response.data.id == 2
+                   assert response.data.first_name == 'Janet'
+
+                   Assert the concatenated value obtained from response
+                   * def firstName = response.data.first_name
+                   * def lastName = response.data.last_name
+                   assert firstName + lastName == 'JanetWeaver'
+
+                   Assert can be done with concatenated of String and Id
+                   * def firstName = response.data.first_name
+                   * def id = respones.data.id
+                   assert firstName + id == 'Janet2'

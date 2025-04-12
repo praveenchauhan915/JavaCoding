@@ -7,4 +7,4 @@
                        It accepts commands from the script and sends them to browser as Selenium core JavaScript commands, for browser to behave accordingly.
          Selenium Web Driver:- It is a programming interface that helps create and run test cases by directly communicating with the web browser and using its native compatibility to automate.
                                Unlike Selenium RC, it doesn't require an additional server to create and run test cases.
-         Selenium Grid:- It allows parallel execution of tests on different browsers and opeating system by distributing commands to other machines simultaneously.
+         Selenium Grid:- It allows parallel execution of tests on different browsers and operating system by distributing commands to other machines simultaneously.

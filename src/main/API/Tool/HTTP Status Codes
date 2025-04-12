@@ -9,7 +9,7 @@
 --> 3XX:- Redirection
      301:- Moved Permanently:- The requested resource has been permanently moved to new location.
      302:- Found:- The requested resource has been temporarily n=moved to new location.
-     304:- The resource has been not modified since the last request.
+     304:- Not Modified:- The resource has been not modified since the last request.
 --> 4XX:- Client Error
      400:- Bad Request:- The server cannot process the request due to client error, such as malformed request.
      401:- Unauthorized:- The request requires authentication,and the client has not provided valid credentials.
