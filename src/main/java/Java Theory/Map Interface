@@ -9,5 +9,5 @@
                Non-Synchronized
                Maintains no insertion order.
 --> Linked Hash Map:- Maintains insertion order
---> Tree Map:- Cannot hav null key but can have multiple null values.
+--> Tree Map:- Cannot have null key but can have multiple null values.
                Maintains ascending order.
