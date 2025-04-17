@@ -3,9 +3,11 @@
              Slower when it comes to frequent modification due to immutability.
 --> String Builder:- It is mutable.
                      Non-Synchronized therefore not thread safe.
+                     Means two threads can call the method of string builder simultaneously.
                      Faster for repeated changes since no new objects are created.
 --String Buffer:- It is mutable.
                   Synchronized making thread safe.
+                  Means two threads cannot call the method of string buffer simultaneously.
                   Slightly slower then string builder due to synchronization.
 
 --> How to create String?

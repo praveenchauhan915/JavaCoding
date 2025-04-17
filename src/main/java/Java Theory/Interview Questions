@@ -33,12 +33,20 @@
     Abstract method are usually declare with two or more sub class are expected to similar thing in a different way through different implementation for the abstract methods.
     Abstract class are used to define the generic types of behaviours are the top of the object oriented languages.
 
---> Difference between final, finally and finalise?
-       Final:-
-       Finally:-
-       Finalise:-
+--> Difference between final, finally and finalize?
+       Final:- final is the keyword and access modifier.
+               The final keyword is used with the classes, methods and variables.
+               Once declared, a final variable becomes a constant and cannot be modified.
+               The final method is executed only when we call it.
+       Finally:- finally is the block in java exception handling to execute the important code whether the exception occurs or not.
+                 Finally block is always related to the try-catch block in exception handling.
+                 Finally block is executed as soon as the try-catch block is executed. Its execution not dependant on the exception.
+       Finalize:- finalize is the method in Java that is used to perform cleanup processing just before an object is garage collected.
+                  The finalize() method is used with the objects.
+                  The finalize() method is executed just before the object is destroyed.
 
---> Difference between throw, throws and throwable?
-       Throw:-
-       Throws:-
-       Throwable:-
+--> Difference between throw, throws?
+       Throw:- Java throw keyword is used throw an exception explicitly in the code, inside the function or the block of code.
+               The throw keyword is followed by an instance of Exception to be thrown.
+       Throws:- Java throws keyword is used in the method signature to declare an exception which might be thrown by the function while the execution of the code.
+                The throws keyword is followed by class names of Exceptions to be thrown.
