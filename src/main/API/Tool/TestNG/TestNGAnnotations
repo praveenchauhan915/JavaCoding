@@ -1,0 +1,17 @@
+--> TesTNG annotations is a piece of code which is inserted inside a program or business logic used to control the flow of executionof test methods
+--> List of Annotations
+       --> BeforeSuite:- Method will run before the execution of all the methods in the suite.
+       --> AfterSuite:- Method will run after the execution of all the methods in the suite.
+       --> BeforeTest:- Method will be executed before the execution of all the test methods of available classes belonging to that folder.
+       --> AfterTest:- Method will be executed after the execution of all the test methods of available classes belonging to that folder.
+       --> BeforeClass:- Method will be executed before the first method of the current class is invoked.
+       --> AfterClass:- Method will be invoked after the execution of all the test methods of the current class.
+       --> BeforeMethod:- Method will be executed before each test method will run.
+       --> AfterMethod:- Method will be executed after the execution of each test method.
+       --> BeforeGroup:- Method run only once for a group before the execution of all the cases belonging to that group.
+       --> AfterGroup:- Method run only once for a group after the execution of all the cases belonging to that group.
+
+--> Hierarchy of the TestNG Annotations:
+      -->BeforeSuite-->BeforeTest--> BeforeClass--> BeforeMethod
+                      Test
+      --> AfterMethod--> AfterClass-->AfterTest--> AfterSuite

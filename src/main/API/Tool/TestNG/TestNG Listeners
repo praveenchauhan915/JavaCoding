@@ -1,0 +1,11 @@
+--> TestNG provides the @Listeners annotation which listens to every event that occurs in a selenium code.
+--> Listeners are activated either before the test or after the test case.
+--> It is an interface that modifies the testNG behaviour.
+--> Listeners are implemented by the iTestListeners interface. An iTestListeners interface has the following methods:
+      --> onTestStart():- An onTestStart() is invoked only when any test method gets started.
+      --> onTestSuccess():- An onTestSuccess() method is executed on the success of a test method.
+      --> onTestFailure():- An onTestFailure() method is invoked when test method fails.
+      --> onTestSkipped():- An onTestSkipped() run only when any test method has been skipped.
+      --> onTestFailedButWithinSuccessPercentage():- This method is invoked each time when the test method fails but within success percentage.
+      --> onStart():- An onStart() method is executed on the start of any test method.
+      --> onFinish():- An onFinish() is invoked when any Test case finishes its execution.

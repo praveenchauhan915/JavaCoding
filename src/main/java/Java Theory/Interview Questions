@@ -29,3 +29,16 @@
                          c.mul(10,10);
                   }
                }
+--> When to use abstract method and abstract class?
+    Abstract method are usually declare with two or more sub class are expected to similar thing in a different way through different implementation for the abstract methods.
+    Abstract class are used to define the generic types of behaviours are the top of the object oriented languages.
+
+--> Difference between final, finally and finalise?
+       Final:-
+       Finally:-
+       Finalise:-
+
+--> Difference between throw, throws and throwable?
+       Throw:-
+       Throws:-
+       Throwable:-

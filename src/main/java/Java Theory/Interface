@@ -1,7 +1,7 @@
 --> Interface is a media between two different system.
 --> Interface contains only abstract method.
 --> Abstract method is a method which is not having any implementation.
---> It is mandatory for a chile class to override the abstract method which is present inside the interface.
+--> It is mandatory for a child class to override the abstract method which is present inside the interface.
 --> We cannot create an object of interface.
 --> In interface can refer to any of the child class in the entire inheritance hierarchy.
 --> We can achieve 100% abstraction in interface.

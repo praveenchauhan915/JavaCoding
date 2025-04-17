@@ -1,0 +1,36 @@
+--> Type casting is when assigning a value of one primitive data type to another datatype.
+--> Types of casting
+     --> Widening Casting:- Converting a smaller type to a larger type size.
+                            Also called implicit type casting and up-casting.
+                  byte -> short -> char -> int -> long -> float -> double
+              Example:- int myInt = 9;
+                        double myDouble = myInt;
+     --> Narrowing Casting:- Converting a larger type to a smaller size type.
+                             Also called explicit casting and down-casting.
+                  double -> float -> long -> int -> char -> short -> byte
+               Example:- double myDouble =9.78d;
+                         int myInt = (int) myDouble;
+
+
+--> Wrapper Classes:- Provide the mechanism to convert primitive into object and object to primitive.
+              Primitive Type            Wrapper Class
+                boolean                  Boolean
+                char                     Character
+                byte                     Byte
+                short                    Short
+                int                      Integer
+                long                     Long
+                float                    Float
+                double                   Double
+--> Type :-
+          Autoboxing:- The automatic conversion of primitive data type into a corresponding wrapper class is known as autoboxing.
+                       Example:- int--> Integer, long--> Long, char--> Character, short--> Short.
+                       Code:-
+                               int a = 20;
+                               Integer i = Integer.valueOf(a); // Converting int into Integer explicitly
+                               Integer j = a; // autoboxing, now compiler will convert Integer.valueOf(a) internally
+          Unboxing:- The automatic conversion of wrapper type into its corresponding primitive type is known as unboxing.
+                     Code:-
+                            Integer a = new Integer(3);
+                            int i = a.intValue(); // converting Integer to int explicitly.
+                            int j = a; //unboxing, now compiler will write a.intValue() internally

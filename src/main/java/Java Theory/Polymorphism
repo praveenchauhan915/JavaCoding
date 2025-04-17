@@ -1,0 +1,14 @@
+--> It is a most powerful object oriented programming language.
+--> Poly means many, morphism means forms, so polymorphism means many forms.
+--> It is nothing but one method different behaviours is called polymorphism.
+--> Type of Polymorphism
+      --> Compile-time:- When type of the objects is determined at compile time by the compiler is called as compile time polymorphism.
+                         Method overloading is nothing but compile time polymorphism.
+                         It is also called static binding/early binding.
+                         Overloaded method are bounded using compile time polymorphism.
+      --> Run-time:- When type of the object is determined at run time by JVM is called as run-time polymorphism.
+                     Method overriding is nothing but run-time polymorphism.
+                     It is also called dynamic binding/ late binding.
+                     Overridden method are bonded using run-time polymorphism.
+                     Dynamic binding uses object to resolve the binding.
+                     It is achieved by using the concept of inheritance.

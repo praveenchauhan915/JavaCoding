@@ -1,0 +1,97 @@
+--> Some common attributes are described below
+     --> description:- It is a string which is attached to the @Test annotation that describe the information about the test.
+         --> Syntax:- @Test(description="This is testcase 1")
+                      public void testcase1(){
+                       //Statement
+                      }
+     --> timeOut:- If one of the test case is taking a long time due to which other cases are failing. To overcome such situation, need to mark the testcase as fail to avoid the failure of the other test cases.
+         --> public class Timeout_program
+             {
+             @Test(timeOut=200)
+             public void testcase1() throws InterruptedException
+             {
+             Thread.sleep(500);
+             System.out.println("This is testcase1");
+             }
+             @Test
+             public void testcaes2()
+             {
+             System.out.println("This is testcase2");
+                 }
+             @Test
+             public void testcase3()
+             {
+             System.out.println("This is testcase3");
+             }
+             }
+             In the above code, inside the testcase1() method, we have Thread.sleep(500) which means that the testcase1() method will be executed after 500 milliseconds, but we have provided timeOUT attribute with the value 200 means that the testcase1() will be failed after 200 milliseconds.
+
+             testng.xml
+
+             <?xml version="1.0" encoding="UTF-8"?>
+             <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+             <suite name="test_suite">
+             <test name="TimeOut Program">
+             <classes>
+             <class name="com.javatpoint.Timeout_program"/>
+             </classes>
+             </test> <!-- Test -->
+             </suite> <!-- Suite -->
+     --> priority:- Test case execution based on priority from lowest to highest.
+         --> Syntax:- @Test()
+                      public void testcase1{
+                        //Statement
+                      }
+                      @Test(priority = 2)
+                      public void testcase2{
+                        //Statement
+                      }
+                      @Test(priority = 1)
+                      public void testcase3{
+                        //Statement
+                      }
+
+     --> dependsOnMethods:- When the second test method wants to be dependent on the first test method, then this could be possible by use of "dependsOnMethods" attribute.
+         --> Syntax:- @Test
+                      public void testcase1(){
+                        //Statement
+                      }
+                      @Test
+                      public void testcase2(dependsOnMethods=={"testcase1"})
+     --> enabled:- The enabled attribute contains the boolean value. By default, its value is true. If want to skip some test case method, then need to explicitly specify 'false' value.
+         --> Syntax:- @Test(enabled =  false)
+                      public void testcase1(){
+                        //Statement
+                      }
+     --> groups:- The 'groups' attribute is used to group the different testcases that belongs to same functionality.
+         --> Syntax:- public class Software_Company
+                      {
+                      @Test(groups= {"software company"})
+                      public void infosys()
+                      {
+                      System.out.println("Infosys");
+                      }
+                      @Test
+                      public void technip()
+                      {
+                      System.out.println("Technip India Ltd");
+                      }
+                      @Test(groups= {"software company"})
+                      public void wipro()
+                      {
+                      System.out.println("Wipro");
+                      }
+                      }
+                      In Testng.xml
+                      <suite name="test_suite">
+                      <test name="Software Company">
+                      <groups>
+                      <run>
+                      <include name="software company"/>
+                      </run>
+                      </groups>
+                      <classes>
+                      <class name="com.javatpoint.Software_Company"/>
+                      </classes>
+                      </test> <!-- Test -->
+                      </suite> <!-- Suite -->

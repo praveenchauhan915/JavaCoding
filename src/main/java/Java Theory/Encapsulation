@@ -1,0 +1,15 @@
+--> It is one of the most powerful object oriented technology.
+--> It is nothing but packing up the data code together.
+--> It is not freely available outside of the class.
+--> The main advantage of encapsulation is giving security to the data.
+--> It can be achieved by using the concept of getters and setters or Java beans or POJO class(Plain Object Java Object).
+--> Encapsulation is achieved by declaration the field in the class as private, while providing access to these builds via public typically it is a getters and setters method.
+    Example:-
+               private Mobile m;
+
+               Setter:- public void Set m(Mobile m){
+                           this.m = m;
+                         }
+               Getter:- public Mobile get m(){
+                           return m;
+                         }

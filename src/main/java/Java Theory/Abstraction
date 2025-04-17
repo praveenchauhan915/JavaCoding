@@ -1,0 +1,23 @@
+--> It is a process of hiding the implementation details from the user and are exposing only necessary details to the user.
+--> Advantage:- We can achieve loose coupling.
+--> Abstract Method:- is a method which doesn't have any implementation is called as abstract method.
+                      Also called as incomplete method.
+                      Example:- void display();
+--> Concrete Method:- is a method which is having some implementation is called as concrete method.
+                      Also called as complete method.
+                      Example:- void display(){
+                        //Statement;
+                      }
+
+--> Abstract Class:- is a incomplete class.
+                     It is a combination of abstract method and concrete method.
+                     Abstract class can have any number of abstract method and concrete method.
+                     We cannot create object of abstract class.
+                     It is mandatory for a child class to override the abstract class which are defined in parent abstract class.
+                     If we are not overriding the abstract method which is present in a abstract class, then make the child class as a abstract.
+                     In abstract class can refer to any of the child class in the entire hierarchy.
+                     If any abstract method which is present in a abstract clas than make that method as a abstract keyword/access modifier.
+                     If any abstract method present in a abstract class, then make the class as a abstract keyword else it will not compile.
+                     Abstract class are used to provide common method implementation to all sub-class or to provide default implementation.
+                     --> Advantage:- We can achieve 0 to 100% abstraction.
+                                     We can achieve loose coupling.

@@ -65,3 +65,13 @@
                    Demo(long l, int i){
                     //statement
                    }
+
+--> Constructor Chaining:-
+             This Statement:- Any constructor of a class wants to call constructor of the same class by using 'this' statement.
+                              'this' statement is used to call the current class constructor.
+                              We cannot have more then one 'this' statement inside the constructor.
+                              'this' statement should be first line of code inside any constructor.
+             Super Statement:- Any statement of a class wants to call constructor of the super class by using 'Super' statement.
+                               'Super' statement is used to call super constructor.
+                               We cannot have more than one 'super' statement inside the constructor.
+                               'Super' statement should be the first line of the code inside the constructor.
