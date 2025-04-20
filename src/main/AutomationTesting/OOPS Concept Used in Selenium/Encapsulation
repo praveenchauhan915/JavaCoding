@@ -1,0 +1,35 @@
+--> Is a mechanism of wrapping the data (variable) and code acting on the data (methods) together in single unit.
+--> Example:-
+              public class LandingPage {
+                  WebDriver driver;
+                  public LandingPage(WebDriver driver){
+                      this.driver = driver;
+                      PageFactory.initElements(driver, this);
+                  }
+              //    WebElement userEmail =  driver.findElement(By.id("userEmail"));
+
+                  //   Page Factory
+                  @FindBy(id="userEmail")
+                  WebElement userEmail;
+              //  driver.findElement(By.id("userPassword"))
+                  @FindBy(id="userPassword")
+                  WebElement userPassword;
+              //    driver.findElement(By.id("login"))
+                  @FindBy(id="login")
+                  WebElement submit;
+
+              public void loginApplication(String email, String password){
+                      userEmail.sendKeys(email);
+                      userPassword.sendKeys(password);
+                      submit.click();
+                  }
+
+                  public void goTo(){
+                      driver.get("https://rahulshettyacademy.com/client");
+                  }
+
+
+           In Test Case
+                    LandingPage landingPage = new LandingPage(driver);
+                           landingPage.goTo();
+                           landingPage.loginApplication("praveen.chauhan162636@gmail.com", "7dNtya@aH.2@skF");

@@ -1,0 +1,49 @@
+--> Abstraction is the methodology of hiding the implementation of internal details and showing the functionality to the users.
+--> In Page object model design pattern, we write locators(such as id, class, name, xpath) and the methods in a Page Class.
+--> We utilize these locators in tests but we can't see the implementation of the methods.
+--> Literally hide the implementations of the locators from the tests.
+
+Example:- LoginPage.class
+          public class LoginPage {
+             WebDriver driver;
+
+             // Locators
+             By usernameField = By.id("username");
+             By passwordField = By.id("password");
+             By loginButton = By.id("loginBtn");
+
+             public LoginPage(WebDriver driver){
+                 this.driver = driver;
+             }
+
+             // Abstracted Actions
+             public void enterUserName(String username){
+                 driver.findElement(usernameField).sendKeys(username);
+             }
+
+             public void enterPassword(String password){
+                 driver.findElement(passwordField).sendKeys(password);
+             }
+
+             public void clickLogin(){
+                driver.findElement(loginButton).click();
+             }
+
+             public void login(String username, String password) {
+                     enterUsername(username);
+                     enterPassword(password);
+                     clickLogin();
+                 }
+          }
+
+
+          TestLogin.java
+          public class TestLogin {
+              WebDriver driver = new ChromeDriver();
+              driver.get("https://example.com/login");
+
+              //Use the abstracted page
+              LoginPage loginPage = new LoginPage();
+              loginPage.login("admin", "admin123");
+              driver.quit();
+          }

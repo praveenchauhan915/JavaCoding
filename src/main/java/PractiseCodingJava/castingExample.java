@@ -1,4 +1,4 @@
-package PractiseCoding;
+package PractiseCodingJava;
 
 public class castingExample {
 }

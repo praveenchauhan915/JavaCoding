@@ -1,7 +1,5 @@
-package PractiseCoding;
+package PractiseCodingJava;
 
-import javax.net.ssl.SSLEngineResult;
-import java.util.Arrays;
 import java.util.HashSet;
 
 public class Practise {

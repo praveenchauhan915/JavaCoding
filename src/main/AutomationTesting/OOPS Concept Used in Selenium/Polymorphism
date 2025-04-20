@@ -1,0 +1,27 @@
+--> Polymorphism allows us to perform a task in multiple task.
+--> Method Overloading :- We use Implicit wait in selenium.
+                          Implicit wait we use different time stamps such as SECONDS, MINUTES, HOURS.
+                          Action class in TestNG is also an example of overloading
+                          Assert class in TestNG is also an example of overloading.
+--> Method Overriding:- In Selenium, method overriding is a feature that allows a subclass to provide a specific implementation of a method that's already defined in its subclass.
+                        --> Lets say we have a Webdriver interface with a get(String url) method for navigating to a URL.
+                        Example:-
+                              public interface WebDriver {
+                               void get(String url);
+                              }
+
+                              public class ChromeDriver implements WebDriver {
+                                     @override
+                                     public void get(String url){
+                                         //ChromeDriver-specific navigation logic
+                                         System.out.println("Navigating to "+ url+ " in chrome")
+                                     }
+                              }
+
+                              public class FirefoxDriver implements WebDriver {
+                                     @override
+                                     public void get(String url){
+                                         //FirefoxDriver-specific navigation logic
+                                         System.out.println("Navigating to "+ url+ " in firefox")
+                                                                   }
+                              }

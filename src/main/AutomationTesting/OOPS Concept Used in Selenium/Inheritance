@@ -1,0 +1,27 @@
+--> The mechanism in java by which one class acquires the properties(instance variable) and functionalities of another class is known as Inheritance.
+--> We are creating Base Class in the automation Framework to initialize WebDriver interface, WebDriver waits , Property files, Excels etc in the base class.
+--> We extend base class in other classes such as Tests and Utility Class.
+--> Example:- BaseTest.java
+              public class BaseTest {
+                 WebDriver driver;
+                 public void setUp(){
+                   driver = new ChromeDriver();
+                   driver.manage().window().maximize();
+                 }
+                 public void tearDown(){
+                    if(driver!=null){
+                      driver.quit();
+                    }
+                 }
+              }
+
+              LoginTest.java
+              public class LoginTest extends BaseTest {
+                 public static void main(String[] args){
+                     test.setUp();
+                     // code of verification
+                     test.tearDown();
+
+
+                 }
+              }

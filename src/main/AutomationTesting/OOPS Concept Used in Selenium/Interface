@@ -1,0 +1,6 @@
+--> An interface can have methods and variables just like the class but the methods declared in interface are by default abstract.
+--> WebDriver driver = new ChromeDriver();
+--> WebDriver itself is an interface.
+--> ChromeDriver is a class.
+--> driver is reference variable.
+--> We are creating a reference variable driver of the interface WebDriver and creating an objects

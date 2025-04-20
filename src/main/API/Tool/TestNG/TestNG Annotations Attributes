@@ -95,3 +95,8 @@
                       </classes>
                       </test> <!-- Test -->
                       </suite> <!-- Suite -->
+     --> Invocation Count:- Invocation count is an attribute, when used to executes the test a specified number of times.
+         --> Syntax:- @Test(invocationCount = 5)
+                      public void runFiveTimes(){
+                         //Statement
+                      }
