@@ -1,0 +1,17 @@
+--> Git is distributed version control system, that is used to track changes in source code during software development.
+--> It permits multiple developer to work on a project together without interrupting each other's changes.
+
+--> Git Repository is like a file structure that stores all the files for a project.
+--> It continues track changes made to these files over time, helping teams work together evenly.
+--> Git can control both local repository(local machine) and remote repository allowing teamwork and backup.
+
+--> Commands
+    --> git init:- It initializes an empty repository in the current directory.
+    --> git add:- It stages changes to files, preparing them to for next commit.
+    --> git commit:- It saves the staged changes as a new commit with a message.
+    --> git push:- It uploads local commits to a remote repository.
+    --> git pull:- It fetches changes from a remote repository and merge them into current branch.
+    --> git fitch:- It downloads changes from a remote repository without merging.
+    --> git stash:- It temporarily stores unstaged changes, allowing you to switch to a different branch without commiting them.
+    --> git reset:- It moves the current branch pointer to a different commit, potentially rewriting history.
+    -->
