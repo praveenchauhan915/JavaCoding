@@ -1,4 +1,4 @@
---> TesTNG annotations is a piece of code which is inserted inside a program or business logic used to control the flow of executionof test methods
+--> TestNG annotations is a piece of code which is inserted inside a program or business logic used to control the flow of execution of test methods
 --> List of Annotations
        --> BeforeSuite:- Method will run before the execution of all the methods in the suite.
        --> AfterSuite:- Method will run after the execution of all the methods in the suite.
