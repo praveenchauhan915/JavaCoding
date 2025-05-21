@@ -22,9 +22,6 @@ public class duplicateCharacterInString {
             if (charCountMap.get(ch) > 1) {
                 System.out.println(ch + " :" + charCountMap.get(ch));
             }
-
         }
-
     }
-
 }
